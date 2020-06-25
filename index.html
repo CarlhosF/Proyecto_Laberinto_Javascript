@@ -1,0 +1,91 @@
+<!doctype html>
+<hmtl>
+<head>
+
+    <title>Laberinto con Javascript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Desarrollando Pagina WEB"/>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/video.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+
+        <header>
+            <h1>LABERINTO CON JAVASCRIPT</h1>
+        </header>
+        
+        <nav class="menu">
+            <div class="op-1">
+                <button id="btt-1">Iniciar Juego</button>
+            </div>
+            <div class="op-2">
+                <button id="btt-2">Avatares</button>
+            </div>
+            <div class="op-3">
+                <a href="niveles/html/instrucctions.html"><button id="btt-3">Instrucciones</button></a>
+            </div>
+            <div class="op-4">
+                <a href="niveles/html/campo libre.html"><button id="btt-4">Campo libre</button></a>
+            </div>
+        </nav>
+        
+        <main class="main">
+
+            <section>
+
+                <video id='medio' width="608" >
+                
+                    <source src="video/demo.mp4" type="video/mp4">
+                    <source src="video/demo.ogg" type="video/ogg">
+                
+                </video>
+                <nav>
+                    
+                    <div id='botones'>
+                        <button type="button" id="reproducir">Reproducir</button>
+                    </div>
+                    <div id='barra'>
+                        <div id='progreso'></div>
+                    </div>
+                    <!--
+                    -->
+                    <div style="clear:both"></div>
+                
+                </nav>
+            </section>
+            
+        </main>
+        
+        <aside>
+
+            <article>
+                <h2>Acerca Del Sitio.</h2>
+            </article>
+            
+            <article>
+                <p>
+                    Este sitio web desarrollado por <b>Carlhos Edgardo Fígueroa Tejada</b> y <b>José Francisco Hernández Reyes</b> para ser presentado como <b>Proyecto Final</b> de la catedra <b>Diseño Web</b> y que tiene como titulo del proyecto <b>Laberinto con Javascript</b>
+                </p>
+                <p>
+                    Quienes se complacen de presentar este sitio web para los usuarios internet como plataforma que se utilizara para poder presentar los conocimientos adquiridos dentro de la catedra <b>Diseño web</b>
+                </p>
+                <p>
+                    La funcionalidad del sitio presenta una pequeña aplicación del juego laberinto utilizando javascript
+                </p>
+            </article>
+       
+        </aside>
+        
+        <footer>
+            Derechos Reservados &copy; 2020
+        </footer>
+
+    </div>
+    
+    <script src="js/video.js"></script>
+    <script src="js/pagPrincipal.js"></script>
+</body>
+</hmtl>

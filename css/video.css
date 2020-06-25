@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+section{
+    background-color: #999999;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav{
+    margin: 5px 0px;
+}
+
+#botones{
+    float: left;
+    width: 90px;
+    height: 20px;
+}
+
+#barra{
+    float: left;
+    position: relative;
+    width: 500px;
+    height: 16px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    background: #eeeeee;
+}
+
+#progreso{
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    background: rgba(0,0,150,.2);
+}

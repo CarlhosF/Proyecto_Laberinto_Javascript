@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Juego </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/proyectlvl2.css">
+    <script src="../js/proyectlvl1.js"></script>
+
+</head>
+<body>
+
+    <div id="contentG">
+
+        <header>
+            <h1>Laberinto con JavaScript </h1>
+        </header>
+
+        <div id="cont" class="cont">
+
+            <table border="0" cellspacing=0 id="campo">
+
+            <tr>
+
+                <td class="avatar"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+
+            </tr>
+
+            <tr>
+
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+            
+            </tr>
+            <tr>
+
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+            
+            </tr>
+            <tr>
+
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+            
+            </tr>
+            <tr>
+
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="camino"></td>
+
+            </tr>
+            <tr>
+
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+
+            </tr>
+            <tr>
+
+                <td class="camino"></td>
+                <td class="camino"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="camino"></td>
+                <td class="obstaculo"></td>
+                <td class="obstaculo"></td>
+                <td class="meta" id="meta"></td>
+            </tr>
+
+            </table>
+
+        </div>
+
+        <div id="menu" class="cont mini-cont">
+            
+            <div class="instr">
+            
+                <h2>Instrucciones</h2>
+                <p>
+                    Usa los comandos : Arriba, Abajo, Derecha e Izquierda con sus respectivos parametros 
+                    para mover el avatar dentro del laberinto y llevarlo hasta la meta que esta marcada 
+                    con color verde. <br>Utilizando la sintaxis "Comando(Parametro);" Ejemplo: Arriba(2);  
+                </p>
+            
+            </div>
+            
+            <div class="txtA">
+                
+                <h2>Entrada comandos</h2>
+                <textarea name="" id="texto" cols="30" rows="5"></textarea>
+                <button id="aceptar">Aceptar</button>
+            
+            </div>
+
+        </div>
+        <button id="volver">Volver a la pag. Principal</button>
+    </div>
+
+</body>
+</html>
