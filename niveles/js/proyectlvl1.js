@@ -25,7 +25,8 @@ window.onload=function(){
            var comando=lec[0];
            var num=lec[1];
            num=parseInt(num.slice(0,-1));
-
+            comando=comando.replace(/\n|\r/g, "");
+            comando=comando.replace(" ", "");
            if(comando=='abajo'){
             
             if(num){
